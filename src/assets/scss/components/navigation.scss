@@ -1,7 +1,24 @@
+.main-header-container {
+  background-color: #22333b;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 25px;
+  align-items: center;
+}
+
+.main-nav-item {
+  list-style: none;
+}
+
 .main-nav-link {
-  color: purple !important;
-  text-transform: uppercase;
-  font-weight: bolder;
-  font-size: 20px;
-  letter-spacing: 5px;
+  text-decoration: none;
+  color: #d64550;
 }
