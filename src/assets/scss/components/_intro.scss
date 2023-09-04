@@ -1,0 +1,10 @@
+.main-intro-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-intro-card {
+  padding: 25px;
+  background-color: $primary;
+  border-radius: 15px;
+}

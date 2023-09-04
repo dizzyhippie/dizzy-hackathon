@@ -1,9 +1,13 @@
 //
-//ABSTRACT
+//BASE
 //
-@import "abstracts/variables";
-
+@import "base/reset";
+@import "base/variables";
+@import "base/mixins";
+@import "base/typography";
+@import "base/global";
 //
 //COMPONENTS
 //
 @import "components/navigation";
+@import "components/intro.scss";
