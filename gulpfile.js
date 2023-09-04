@@ -12,7 +12,7 @@ function buildStyles() {
   return gulp
     .src("./src/assets/scss/**/*.scss")
     .pipe(sass({ outputStyle: "compressed" }).on("error", sass.logError))
-    .pipe(rename("App.css"))
+    .pipe(rename("App.scss"))
     .pipe(gulp.dest("src"));
 }
 
