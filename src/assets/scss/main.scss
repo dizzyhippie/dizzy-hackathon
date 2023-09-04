@@ -1,9 +1,11 @@
 //
 //ABSTRACT
 //
+@import "abstracts/reset";
 @import "abstracts/variables";
-
+@import "abstracts/global";
 //
 //COMPONENTS
 //
 @import "components/navigation";
+@import "components/intro.scss";

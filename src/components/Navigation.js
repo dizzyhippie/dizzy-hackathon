@@ -1,19 +1,14 @@
 function Navigation() {
   return (
-    <div className="main-header-container">
+    <section className="container main-header-container">
       <div className="main-header-logo">
         <h3>Logo Here</h3>
       </div>
       <nav>
         <ul className="main-nav">
           <li className="main-nav-item">
-            <a href="/game-1" className="main-nav-link">
-              Game 1
-            </a>
-          </li>
-          <li className="main-nav-item">
-            <a href="/game-2" className="main-nav-link">
-              Game 2
+            <a href="/games" className="main-nav-link">
+              Games
             </a>
           </li>
           <li className="main-nav-item">
@@ -23,7 +18,7 @@ function Navigation() {
           </li>
         </ul>
       </nav>
-    </div>
+    </section>
   );
 }
 
