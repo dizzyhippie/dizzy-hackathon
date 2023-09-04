@@ -1,0 +1,17 @@
+body {
+  background-color: $background;
+}
+
+.hidden {
+  display: none;
+}
+
+.hide-large,
+.hide-small {
+  display: none;
+}
+
+.container {
+  padding-left: 50px;
+  padding-right: 50px;
+}
